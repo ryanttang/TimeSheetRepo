@@ -3,7 +3,7 @@
 <html lang="en-us">
 
 <head>
-
+  
   <meta charset="UTF-8">
 
   <title>HTML</title>
@@ -20,8 +20,8 @@
     <section id="main-content">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut tellus sed felis consectetur auctor eget non justo. Nunc in laoreet nunc. Quisque accumsan tincidunt neque, at dictum turpis. In hac habitasse platea dictumst. </p>
     </section>
-
-    <div class="col-lg-12">
+    
+     <div class="col-lg-12">
       <div class="panel panel-default">
         <div class="panel-heading">
           <h3 class="panel-title">Add Employee</h3>
@@ -53,6 +53,34 @@
         </div>
 
       </div>
+    
+    <section id="sidebar">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut tellus sed felis consectetur auctor eget non justo. Nunc in laoreet nunc. Quisque accumsan tincidunt neque, at dictum turpis. In hac habitasse platea dictumst. </p>
+    </section>
+
+  </div>
+    
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDr959PPfA-I-emRte6ssE8kr1_CsoPhRI",
+      authDomain: "timesheet-e45d9.firebaseapp.com",
+      databaseURL: "https://timesheet-e45d9.firebaseio.com",
+      projectId: "timesheet-e45d9",
+      storageBucket: "",
+      messagingSenderId: "838616575832"
+    };
+    firebase.initializeApp(config);
+
+    var database = firebase.database();
+
+    var name = ""
+    var role = ""
+    var date = ""
+    var rate = 0
+  </script>
+
 </body>
 
 </html>
