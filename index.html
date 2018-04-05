@@ -27,6 +27,27 @@
 
   </div>
 
+  <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDr959PPfA-I-emRte6ssE8kr1_CsoPhRI",
+      authDomain: "timesheet-e45d9.firebaseapp.com",
+      databaseURL: "https://timesheet-e45d9.firebaseio.com",
+      projectId: "timesheet-e45d9",
+      storageBucket: "",
+      messagingSenderId: "838616575832"
+    };
+    firebase.initializeApp(config);
+
+    var database = firebase.database();
+
+    var name = ""
+    var role = ""
+    var date = ""
+    var rate = 0
+  </script>
+
 </body>
 
 </html>
